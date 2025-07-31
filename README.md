@@ -6,7 +6,6 @@ Analyze a fictional retail company’s sales and operations to extract actionabl
 ## Tools Used
 •⁠  ⁠PostgreSQL (via DBeaver)
 •⁠  ⁠Superstore Dataset (Kaggle)
-•⁠  ⁠[Optional] Power BI / Excel for dashboard visuals
 
 ## Key Business Questions Answered
 1.⁠ ⁠Total revenue and orders
