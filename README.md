@@ -1,10 +1,12 @@
 # Superstore Sales Analysis with SQL
 
 ## Objective
-Analyze a fictional retail company’s sales and operations to extract actionable business insights using PostgreSQL.
+This project analyzes the sales performance of a fictional retail company using **PostgreSQL** and presents findings through an interactive **Power BI dashboard**. The objective is to uncover actionable business insights across revenue, profitability, shipping, discount behavior, and regional trends.
+
 
 ## Tools Used
 •⁠  ⁠PostgreSQL (via DBeaver)
+•⁠  ⁠Power BI Desktop
 •⁠  ⁠Superstore Dataset (Kaggle)
 
 ## Key Business Questions Answered
@@ -28,9 +30,46 @@ Analyze a fictional retail company’s sales and operations to extract actionabl
 •⁠  ⁠⁠ NULLIF() ⁠ to avoid divide-by-zero
 •⁠  ⁠⁠ TO_CHAR() ⁠ and ⁠ EXTRACT() ⁠ for date-based trends
 
+## Power BI Dashboard: Sales Insights & Profitability Overview
+
+To complement the SQL-based analysis, an **interactive Power BI dashboard** was developed to visualize trends, performance metrics, and areas of concern.
+
+### Key Dashboard Features
+
+- KPI Cards:
+  - Total Sales
+  - Total Profit
+  - Average Discount
+  - Order Count
+
+- Visualizations:
+  - Sales by **Segment**, **Category**, and **Sub-Category**
+  - Profit by **State** (Map)
+  - Top 5 Cities by Total Sales
+  - Sales Trend by **Year & Month**
+  - Top Discounted Sub-Categories (to highlight potential margin risks)
+  - **Interactive Slicer** for Segment-based filtering
+
+### Dashboard Screenshot
+
+![Dashboard Preview](Superstore_Screenshot.png)
+
 ## Files Included
 •⁠  ⁠⁠ superstore_queries.sql ⁠ → All 15 business SQL queries
 •⁠  ⁠⁠ Sample - Superstore.csv ⁠ → Source dataset
 •⁠  ⁠⁠ README.md ⁠ → Project overview (this file)
+- `dashboard_screenshot.png` → Power BI visual
+  
+## Project Outcomes
+
+This project showcases end-to-end data analysis:
+- Writing **analytical SQL** queries to answer business questions
+- Designing an **executive-level dashboard** in Power BI
+- Translating data into **meaningful insights** for decision-makers
 
 	⁠This project showcases practical SQL skills used in real business analysis.
+
+
+
+
+
