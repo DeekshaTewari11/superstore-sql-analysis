@@ -50,10 +50,6 @@ To complement the SQL-based analysis, an **interactive Power BI dashboard** was 
   - Top Discounted Sub-Categories (to highlight potential margin risks)
   - **Interactive Slicer** for Segment-based filtering
 
-### Dashboard Screenshot
-
-![Dashboard Preview](Superstore_Screenshot.png)
-
 ## Files Included
 •⁠  ⁠⁠ superstore_queries.sql ⁠ → All 15 business SQL queries
 •⁠  ⁠⁠ Sample - Superstore.csv ⁠ → Source dataset
